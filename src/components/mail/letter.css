@@ -1,0 +1,53 @@
+.letter{
+    display: flex;
+    width: calc(100vw - 144px);
+    height: 40px;
+    border: rgb(226, 223, 223);
+    border-style:solid none solid none;
+    flex-basis: 300px;
+    border-width:thin;
+    float: left;
+    
+}
+.letter:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.letter__chosen{
+    width: 50px;
+    flex: 1;
+    padding-left: 13px;
+}
+.letter__marked{
+    width: 50px;
+    flex: 1;
+}
+.letter__important{
+    width: 50px;
+    flex: 1;
+    padding-right: 10px;
+}
+.letter__sender{
+    display: flex;
+    width: 22%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.letter__sender__text{
+    flex: 4;
+    font-weight: 500;
+}
+.letter__content{
+    width: 71%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.letter__title{
+    font-weight: 600;
+}
+.letter__date{
+    width: 7%;
+    left: 93%;
+    margin-top: auto;
+    margin-bottom: auto;
+}

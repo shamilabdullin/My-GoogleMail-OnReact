@@ -1,0 +1,109 @@
+h2{
+    font-size: 3em;
+}
+.first__page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 130px;
+    height: 100vh;
+}
+.text__block{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.text__block h1{
+    font-size: 3.35em;
+}
+.text__block__title{
+    margin-bottom: 30px;
+}
+.text__block__paragraph{
+    margin-bottom: 40px;
+}
+.second__page{
+    text-align: center;
+    height: 120vh;
+}
+.second__page__devices{
+    margin: 18px 0 36px;
+}
+.second__page__title h2{
+    font-size: 2.75em;
+}
+.text__block__button button{
+    font-size: 18px;
+    border-radius: 2px;
+}
+.second__page__images{
+    margin-bottom: 60px;
+}
+.second__page__organize{
+    padding-top: 16px 8px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.copy-content{
+    padding: 54px 100px 0;
+    min-height: 275px;
+    
+}
+.copy-content h2{
+    font-size: 3em;
+}
+.content__text{
+    margin-top: 24px;
+}
+.section__image{
+    padding: 0 32px;
+    min-height: 250px;
+    padding-bottom: 54px;
+}
+.section__action{
+    padding: 144px 32px;
+}
+.section__secure{
+    padding: 144px 32px;
+}
+.section__started{
+    padding: 144px 32px;
+}
+.h-c-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.section__action__content{
+    padding: 0 10%;
+}
+.section__action__content__headline{
+    margin-bottom: 24px;
+}
+.fourth__page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section__started{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section__started__headline{
+    margin-bottom: 24px;
+}
+.fifth__page{
+    text-align: center;
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+.fifth__page__headline{
+    margin: 32px 0;
+}
+.fifth__page__button button{
+    letter-spacing: .5px;
+    font-size: 16px;
+    line-height: .9;
+    padding: 17px 24px;
+    height: 46px;
+    font-weight: 500;
+    margin: 8px 0;
+    transition: color .15s linear,background-color .15s linear;
+    vertical-align: middle;
+}

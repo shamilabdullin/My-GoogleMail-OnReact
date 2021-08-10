@@ -1,0 +1,17 @@
+.block__category{
+    width: 252px;
+    height: 56px;
+    border: solid;
+    border: rgb(226, 223, 223);
+    border-width:thin;
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #5f6368;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight:500;
+}
+.block__category:hover{
+    background-color: #ddd;
+    color: #333;
+}

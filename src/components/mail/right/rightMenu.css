@@ -1,0 +1,8 @@
+.right__menu{
+    width: 72px;
+    border: rgb(226, 223, 223);
+    border-style:solid;
+    border-width:thin;
+    height: calc(100vh - 66px);
+    min-width: 72px;
+}

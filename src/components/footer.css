@@ -1,0 +1,24 @@
+.footer__global{
+    display: grid;
+    padding: 40px 32px 20px;
+}
+.footer__global a{
+    color: #5f6368;
+}
+.footer__global__top{
+    display: flex;
+}
+.footer__global__top__links{
+    display: flex;
+    list-style: none;
+}
+.footer__global__top__links li{
+    padding: 0 30px 15px 0;
+}
+.footer__global__bottom{
+    display: flex;
+    list-style: none;
+}
+.footer__global__bottom li{
+    padding: 0 30px 15px 0;
+}

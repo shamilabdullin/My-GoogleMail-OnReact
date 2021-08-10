@@ -1,0 +1,13 @@
+.navbar{
+    box-shadow: 0 0 7px rgba(0,0,0,0.4);    
+}
+.gmail{
+    font-size: 1.75em;
+    color:darkgray
+}
+.header__menu button{
+    font-size: 18px;
+}
+.header__menu{
+    margin-left: 1000px;
+}

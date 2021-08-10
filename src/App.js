@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
+import Main from "./pages/Main";
+import Mail from "./pages/Mail";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Header from './components/Header';
+import TestMail from './pages/Mail'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/main"><Main /></Route>
+          <Route path="/mail"><Mail /></Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

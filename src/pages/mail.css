@@ -1,0 +1,12 @@
+body{
+    font-size: .875rem;
+}
+.mail__page{
+
+}
+.mail__body{
+    
+}
+.mail__page__container{
+    display: flex;
+}
